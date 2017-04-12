@@ -1,31 +1,39 @@
+<h1>What's For Lunch?</h1>
+
+
+
+
 <p id="notice"><%= notice %></p>
 
 <h1>Restaurants</h1>
 
 <table>
   <thead>
-    <tr>
-      <th>Name</th>
-      <th>Rating  </th>
-      <th>Visited On</th>
-      <th colspan="3"></th>
-    </tr>
+  <tr>
+    <th>Name</th>
+    <th>Rating</th>
+    <th>Visited</th>
+    <th colspan="3"></th>
+  </tr>
   </thead>
 
   <tbody>
-    <% @restaurants.each do |restaurant| %>
+  <% @restaurants.each do |restaurant| %>
       <tr>
         <td><%= restaurant.name %></td>
         <td><%= restaurant.rating %></td>
-        <td><%= restaurant.visited%></td>
+        <td><%= restaurant.visited %></td>
         <td><%= link_to 'Show', restaurant %></td>
         <td><%= link_to 'Edit', edit_restaurant_path(restaurant) %></td>
         <td><%= link_to 'Destroy', restaurant, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
-    <% end %>
+  <% end %>
   </tbody>
 </table>
 
 <br>
 
 <%= link_to 'New Restaurant', new_restaurant_path %>
+
+
+<%= link_to 'All ', restaurants_path %>
