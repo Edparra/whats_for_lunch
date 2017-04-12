@@ -31,6 +31,7 @@ body{
 }
 
 .eachPlace{
+  background-color: rgba(128, 128, 128, 0.5);
   width:45%;
   height: 40em;
   border-style: solid;
@@ -40,12 +41,28 @@ body{
   margin:12px;
 }
 
+.singlePlace{
+  background-color: rgba(128, 128, 128, 0.5);
+  position:absolute;
+  top: 35%;
+  left: 50%;
+  width:30em;
+  height:40em;
+  margin-top: -9em; /*set to a negative number 1/2 of your height*/
+  margin-left: -15em; /*set to a negative number 1/2 of your width*/
+  border: 1px solid forestgreen;
+}
+
 .eachPlace img{
    width: 25em;
   height: 25em;
 }
 
+//.singlePlace img{
+//  width: 25em;
+//  height: 25em;
+//}
+
 .head{
-    color:green;
   text-align: center;
 }

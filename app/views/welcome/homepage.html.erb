@@ -2,38 +2,30 @@
 
 
 
-<div class ="allPlaces center">
+<div class ="center">
 
 
-<h1 class="head">What's For Lunch?</h1>
-
-
-  <button class='btn-xs btn-success' >
-    <%= link_to 'New Restaurant', new_restaurant_path %>
-  </button>
+<h1 class="head">What's For Lunch Today?</h1>
 
 
   <button class='btn-xs btn-success' >
-    <%= link_to 'All ', restaurants_path %>
+    <%= link_to 'See All Restaurants', restaurants_path %>
   </button>
 
-<h1>Restaurants</h1>
 
 
-
-  <% @restaurants.each do |restaurant| %>
-   <div class="eachPlace">
-   <h2><%= restaurant.name %>  </h2>
-    <%= image_tag restaurant.image.url(:medium)%> <br>
-    <p>Rating:   <%= restaurant.rating %>   </p>
-    <p>Visited on:    <%= restaurant.visited %> </p>
-         <%= link_to 'Show', restaurant %>
-        <%= link_to 'Edit', edit_restaurant_path(restaurant) %>
-        <%= link_to 'Destroy', restaurant, method: :delete, data: { confirm: 'Are you sure?' } %>
+   <div class="singlePlace">
+   <h2><%= @restaurant.name %>  </h2>
+    <%= image_tag @restaurant.image.url(:medium)%> <br>
+    <p>Rating:   <%= @restaurant.rating %>   </p>
+    <p>Visited on:    <%= @restaurant.visited %> </p>
+         <%= link_to 'Show', @restaurant %>
+        <%= link_to 'Edit', edit_restaurant_path(@restaurant) %>
+        <%= link_to 'Destroy', @restaurant, method: :delete, data: { confirm: 'Are you sure?' } %>
    </div>
-  <% end %>
+
 
 </div>
 
 
-<br>
+

@@ -1,5 +1,7 @@
 class WelcomeController < ApplicationController
   def homepage
-    @restaurants = Restaurant.order(:rating).reverse
+    @restaurant = Restaurant.first
   end
 end
+
+
