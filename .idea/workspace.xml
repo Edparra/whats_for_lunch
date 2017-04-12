@@ -20,11 +20,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/restaurants/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+            <state relative-caret-position="285">
+              <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -34,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/welcome/homepage.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -64,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="256">
-              <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+              <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -94,7 +94,7 @@
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -106,17 +106,17 @@
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+              <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome_controller.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="welcome_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -139,13 +139,13 @@
         <option value="$PROJECT_DIR$/app/views/restaurants/show.html.erb" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/welcome/homepage.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
         <option value="$PROJECT_DIR$/app/views/restaurants/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
       </list>
     </option>
   </component>
@@ -156,8 +156,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1158" />
-    <option name="y" value="-103" />
+    <option name="x" value="-1212" />
+    <option name="y" value="162" />
     <option name="width" value="1109" />
     <option name="height" value="696" />
   </component>
@@ -593,15 +593,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491946131777</updated>
-      <workItem from="1491946133366" duration="11282000" />
+      <workItem from="1491946133366" duration="12608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11282000" />
+    <option name="totallyTimeSpent" value="12608000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1158" y="-103" width="1109" height="696" extended-state="0" />
+    <frame x="-1212" y="162" width="1109" height="696" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24977458" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -736,7 +736,7 @@
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+          <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -744,7 +744,7 @@
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -767,18 +767,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcome/homepage.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -802,15 +794,23 @@
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
-          <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/restaurants/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        <state relative-caret-position="285">
+          <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
