@@ -1,5 +1,6 @@
 <p id="notice"><%= notice %></p>
 <%= image_tag @restaurant.image.url(:medium)%>
+
 <p>
   <strong>Name:</strong>
   <%= @restaurant.name %>
@@ -10,6 +11,12 @@
   <strong>Rating:</strong>
   <%= @restaurant.rating %>
 </p>
+
+<p>
+  <strong>Last Visited On:</strong>
+  <%= @restaurant.visited %>
+</p>
+
 
 <%= link_to 'Edit', edit_restaurant_path(@restaurant) %> |
 <%= link_to 'Back', restaurants_path %>

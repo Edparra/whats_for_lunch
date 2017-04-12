@@ -27,6 +27,11 @@
     <%= f.number_field :rating , { min: '0', max:'5', step:'any' } %>
   </div>
 
+    <div class="field">
+      <%= f.label :visited %>
+      <%= f.date_field :visited %>
+    </div>
+
   <div class="actions">
     <%= f.submit %>
   </div>
