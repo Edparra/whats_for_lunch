@@ -1,10 +1,11 @@
 <p id="notice"><%= notice %></p>
+
+<div class = "center">
+
+<h2><%= @restaurant.name %></h2>
 <%= image_tag @restaurant.image.url(:medium)%>
 
-<p>
-  <strong>Name:</strong>
-  <%= @restaurant.name %>
-</p>
+
 
 
 <p>
@@ -20,3 +21,6 @@
 
 <%= link_to 'Edit', edit_restaurant_path(@restaurant) %> |
 <%= link_to 'Back', restaurants_path %>
+
+
+  <div>

@@ -3,6 +3,9 @@ class WelcomeController < ApplicationController
       winners = Restaurant.all
       highest_yet = -1
       winners.each do |winner|
+        if winner.rating == nil
+          winner.rating = 0
+        end
         if winner.visited == nil
           days = 6
         else days = Date.today - winner.visited
@@ -23,10 +26,3 @@ end
 
 
 
-# high = Restaurant.order(:rating).reverse[0]
-#
-#   winners = Restaurant.all
-#   winners.each do |winner|
-#     if winner.visited != null
-#       # is todays date - winner.visited
-#     end
