@@ -1,6 +1,6 @@
 # What's For Lunch
 
-App built with ruby on rails to figure out the best place to eat based on rating and last date visited.
+App built with ruby on rails to figure out the best place to eat, based on rating and last date visited.
 
 Technologies Used:
  
