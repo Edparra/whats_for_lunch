@@ -1,24 +1,21 @@
-# README
+# What's For Lunch
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+App built with ruby on rails to figure out the best place to eat, based on rating and last date visited.
 
-Things you may want to cover:
+Technologies Used:
+ 
+* Rails 5.0.2
 
-* Ruby version
+* Ruby 2.3.1
 
-* System dependencies
+* Bootstrap
 
-* Configuration
+* paperclip gem
 
-* Database creation
+* awesome_print gem 
 
-* Database initialization
 
-* How to run the test suite
+## How it works
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Just add your favorite places to eat and give them a rating from 1-5 with 5 being the best.  
+Be sure to update when you last visited, so you'll always get something new!
