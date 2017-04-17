@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba6d2069-81d5-4da6-8655-fa03d0b249ff" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-    </list>
+    <list default="true" id="ba6d2069-81d5-4da6-8655-fa03d0b249ff" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -164,7 +162,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="492" />
+    <option name="x" value="392" />
     <option name="y" value="27" />
     <option name="width" value="977" />
     <option name="height" value="773" />
@@ -393,15 +391,15 @@
       <option name="presentableId" value="Default" />
       <updated>1491946131777</updated>
       <workItem from="1491946133366" duration="20757000" />
-      <workItem from="1492050548502" duration="4480000" />
+      <workItem from="1492050548502" duration="4686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25237000" />
+    <option name="totallyTimeSpent" value="25443000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="492" y="27" width="977" height="773" extended-state="0" />
+    <frame x="392" y="27" width="977" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23848516" sideWeight="0.49452055" order="0" side_tool="false" content_ui="combo" />
