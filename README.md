@@ -17,5 +17,9 @@ Technologies Used:
 
 ## How it works
 
-Just add your favorite places to eat and give them a rating from 1-5 with 5 being the best.  
+Just add your favorite places to eat and give them a rating from 1-5, with 5 being the best.  
 Be sure to update when you last visited, so you'll always get something new!
+
+### Launch the app
+
+https://gentle-lowlands-84778.herokuapp.com/
